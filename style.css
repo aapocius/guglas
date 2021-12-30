@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #eeeeee;
+}
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+nav {
+    margin: 0 auto;
+    overflow: auto;
+}
+article {
+    margin: 0 auto;
+    overflow: auto;
+
+}
+.menugrid {
+    display: grid;
+    font-family: verdana;
+    font-size: 25px;
+    border-radius: 10px;
+    justify-content:flex-start;
+    align-items: center;
+    grid-template-columns: minmax(100px, 150px);
+    grid-auto-rows: 90px;
+    gap: 1px;
+    background: #ffffff;
+    width: 500px;
+    margin: 0 auto;
+    height: 480px;
+
+}
+
+.men {
+    margin: 20px;
+    
+    
+    
+}
+section {
+    
+    margin-top: 30px;
+}
+h1 {
+    margin-left: 40px;
+   font-size: 30px;
+   
+
+}
+h3 {
+   margin-left: 40px;
+   font-size: 20px;
+   
+}
+p {
+    margin-left: 40px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+
+.loginas {
+    display: grid;
+    font-family: verdana;
+    border-radius: 10px;
+    justify-content:flex-start;
+    align-items: center;
+    grid-template-columns: minmax(100px, 500px);
+    grid-auto-rows: 80px;
+    background: #ffffff;
+    width: 500px;
+    margin: 20px auto;
+    height: 100px;
+    overflow: auto;
+}
+.help {
+    visibility:hidden;
+    display: grid;
+    font-family: verdana;
+    border-radius: 10px;
+    justify-content:flex-start;
+    align-items: center;
+    grid-template-columns: minmax(100px, 500px);
+    grid-auto-rows: 80px;
+    background: #ffffff;
+    width: 500px;
+    
+    height: 100px;
+    overflow: auto;
+    margin-top: -30px;
+}
+.textas {
+    display: grid;
+    font-family: verdana;
+    font-weight: bold;
+    border-radius: 10px;
+    justify-content:flex-start;
+    align-items: flex-end;
+    grid-auto-rows: 100px;
+    background: #ffffff;
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    }
+
+
+@media (min-width :900px)  {
+    header img {
+        margin: 0;
+        margin-left: -60px;
+        margin-bottom: 20px ;
+    }
+    a {
+        text-decoration: none;
+        color: grey;
+    }
+    .menugrid {
+
+    display: grid;
+    grid-template-columns: repeat(5, 130px);
+    grid-template-rows: repeat(1, 100px);
+    grid-auto-rows: 10px;
+    background: #ffffff;
+    width: 1250px;
+    height: 100px;
+    margin-left: 50px;
+    margin-right: 200px;
+    }
+    .section {
+        margin-top: 0;
+    }
+    .loginas {
+        margin-top: -5px;
+        width: 300px;
+        margin-left: 50px;
+    }
+    .help {
+        visibility: inherit;
+        margin-top: -35px;
+        width: 300px;
+        margin-left: 50px;
+        height: 183px;
+    }
+    section {
+        display: grid;
+        
+    }
+    .textas {
+        width: 926px;
+        height: 300px;
+        margin-left: 373px;
+        margin-top: -328px;
+        
+     
+}
+        
+        
+
+    }
